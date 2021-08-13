@@ -1,0 +1,14 @@
+person:
+  name: 阿黄
+  age: 2
+  happy: false
+  birth: 2019/01/02
+  maps: {k1: v1,k2: v2}
+  lists:
+    - code
+    - music
+    - girl
+  dog:
+    name: 旺财
+    age: 2
+
