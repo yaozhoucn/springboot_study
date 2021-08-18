@@ -1,5 +1,5 @@
 person:
-  name: 阿黄
+  name: 阿黄${random.uuid}
   age: 2
   happy: false
   birth: 2019/01/02

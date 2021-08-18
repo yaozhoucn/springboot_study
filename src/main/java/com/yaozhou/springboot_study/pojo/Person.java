@@ -18,10 +18,19 @@ import java.util.Map;
 @NoArgsConstructor
 @AllArgsConstructor
 @Component
+
+//javaconfig绑定我们配置文件的值，可以采取以下方式(yml + properties)
+
 //使用properties赋值
 //@PropertySource("classpath:application.properties")
+
+/**
+ * 使用yml给person赋值
+ */
 @ConfigurationProperties(prefix = "person")
 public class Person {
+    //spel表达式取出配置文件的值 --- properties
+    //@Value("${name}")
     private String name;
     private Integer age;
     private Boolean happy;
